@@ -31,6 +31,7 @@ def verificacion(palabra_oculta,l,vidas,cont):
         if l.lower() in palabra_oculta:
             if l.lower() not in acertadas:
                 print("======================")
+                print("Muy bien!!")
                 acertadas.append(l.lower())
                 print(f"Te restan",vidas,"vidas")
                 cont+=1
